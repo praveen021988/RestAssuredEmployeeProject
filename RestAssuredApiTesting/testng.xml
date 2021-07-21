@@ -5,9 +5,10 @@
 	<listeners>
 		<listener class-name="com.restapi.restassured.utilities.Listeners" />
 	</listeners>
-	<test name="RestAssuredApiEmployeeTests">
+	<test thread-count="2" name="RestAssuredApiEmployeeTests">
 		<classes>
 			<class name="com.restapi.restassured.tests.TC_001_GET_All_Employees" />
+			<class name="com.restapi.restassured.tests.TC_002_POST_Employee" />
 		</classes>
 
 	</test>
