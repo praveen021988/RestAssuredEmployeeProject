@@ -9,6 +9,7 @@
 		<classes>
 			<class name="com.restapi.restassured.tests.TC_001_GET_All_Employees" />
 			<class name="com.restapi.restassured.tests.TC_002_POST_Employee" />
+			<class name="com.restapi.restassured.tests.TC_004_DELETE_Employee" />
 		</classes>
 
 	</test>
